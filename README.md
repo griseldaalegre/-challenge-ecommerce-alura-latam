@@ -1,1 +1,1 @@
-# -challenge-ecommerce-alura-latam
+# challenge-ecommerce-alura-latam
