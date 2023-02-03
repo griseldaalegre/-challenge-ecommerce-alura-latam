@@ -211,15 +211,18 @@ nav {
   background-color: var(--bg-contacto);
   display: flex;
   height: 365px;
-  justify-content: center;
+  justify-content: space-between;
   padding: 64px 152px;
+}
 
+.div-contacto {
+  display: flex;
 }
 
 .referencia {
   display: flex;
   width: 350px;
-  margin: 20px 0 0 0;
+  margin: 0;
 }
 
 .referencia img {
@@ -263,7 +266,7 @@ nav {
   box-sizing: content-box;
   padding: 0.5% 2.7%;
   color: var(--azul-destaque);
-  width: 430px;
+  width: 377px;
   height: 56px;
 }
 
@@ -290,7 +293,7 @@ nav {
 }
 
 .form textarea {
-  width: 100%;
+  width: 99%;
   font-family: 'Relaway', sans-serif;
   border: transparent;
   color: var(--azul-destaque);
@@ -324,10 +327,8 @@ nav {
 
 /*Responsive-TABLET*/
 
-@media (min-width: 576px) and (max-width: 768px) {
-  body {
-    background-color: aquamarine;
-  }
+@media (min-width: 768px) and (max-width: 992px) {
+
 
   header {
     height: 72px;
@@ -383,4 +384,44 @@ nav {
     padding: 74px 32px;
     width: auto;
 }
+
+/*FORMULARIO*/
+
+.contacto {
+  padding: 32px;
+  justify-content: start;
+  
+}
+
+.referencia img {
+  width: 40px;
+  height: 29px;
+}
+.div-contacto{
+  flex-direction: column;
+  width: 254px;
+}
+
+.label-float {
+  width: 300px;
+}
+
+.form input {
+  width: 420px;
+}
+
+.form textarea {
+  width: 95%;
+}
+
+.form textarea {
+  padding: 0.5% 2.7%;
+}
+
+.links-utiles a {
+  color: black;
+  font-weight: normal;
+}
+
+
 }
